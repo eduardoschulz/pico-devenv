@@ -1,0 +1,7 @@
+version: '3'
+services:
+  pico-dev:
+    container_name: picodev
+    image: pico
+    volumes:
+      - ./projects:/projects
